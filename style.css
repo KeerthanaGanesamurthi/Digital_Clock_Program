@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid;
+}
+
+#clock, #date{
+    font-family: monospace;
+    font-size: 6.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
